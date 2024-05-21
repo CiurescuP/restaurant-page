@@ -1,0 +1,71 @@
+body {
+  color: #fff;
+  background-color: rgba(24, 24, 24, 0.961);
+  font-family: "Stylish", serif;
+  font-size: 20px;
+
+}
+
+nav {
+  background-color: rgb(27, 29, 36);
+}
+
+ #carousel {
+  width: 90%;
+  margin-left: 50px;
+} 
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.mt-4 {
+  font-size: 18px;
+}
+
+.card {
+  display: inline-block;
+  width: 25rem;
+  margin: 30px;
+  margin-left: 40px;
+  background-color: rgba(24, 24, 24, 0.961);
+  color: white;
+  border: 2px solid #fff;
+}
+
+.card-container {
+  background-color: rgb(27, 29, 36);
+margin-top: 80px;
+margin-bottom: 60px;
+}
+
+#review {
+  margin-bottom: 120px;
+}
+
+.btn-primary {
+margin-top: 15px;
+}
+
+.form-select {
+margin-top: 15px;
+}
+
+.footer-section {
+  margin-top: 30px;
+}
+
+span {
+  color: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+  #carousel {
+    width: 100%;
+    margin-left: -1px;
+  }
+}
